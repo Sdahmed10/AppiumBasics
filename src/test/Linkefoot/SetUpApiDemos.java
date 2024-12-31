@@ -8,7 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class LoginBasicsApiDemos {
+public class SetUpApiDemos {
     // Déclaration d'une variable statique pour le driver Android, utilisée pour interagir avec l'application.
     static AndroidDriver driver;
     // Déclaration d'une variable pour gérer les attentes explicites.

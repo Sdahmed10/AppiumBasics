@@ -15,7 +15,7 @@ import java.nio.file.Paths;
 import java.time.Duration;
 
 
-public class NovationDropDownList extends LoginBasicsApiDemos {
+public class NovationDropDownList extends SetUpApiDemos {
     public static final By App_Button = AppiumBy.xpath("//android.widget.TextView[@content-desc=\"App\"]");
     public static final By Menu_Button = By.xpath("//android.widget.TextView[@content-desc=\"Menu\"]");
     public static final By FromXml_Button = By.xpath("//android.widget.TextView[@content-desc=\"Inflate from XML\"]");

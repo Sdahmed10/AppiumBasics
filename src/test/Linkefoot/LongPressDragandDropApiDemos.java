@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class LongPressDragandDrop extends LoginBasicsApiDemos {
+public class LongPressDragandDropApiDemos extends SetUpApiDemos {
     private static final By VIEWS_BUTTON = AppiumBy.accessibilityId("Views");
     private static final By DRAG_BUTTON = AppiumBy.accessibilityId("Drag and Drop");
     private static final By DRAG1_BUTTON = AppiumBy.xpath("//android.view.View[@resource-id=\"io.appium.android.apis:id/drag_dot_1\"]");

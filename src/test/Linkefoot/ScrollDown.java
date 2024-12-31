@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ScrollDown extends LoginBasicsApiDemos {
+public class ScrollDown extends SetUpApiDemos {
     private static final By VIEWS_BUTTON = AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Views\"]");
     private static final By VISIBILITY_BUTTON = AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Visibility\"]");
     private static final By VIS_BUTTON = AppiumBy.xpath("//android.widget.Button[@content-desc=\"Vis\"]");
