@@ -4,7 +4,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Text extends Loginbasics {
+public class Text extends LoginBasicsLinkefoot {
     private static final By TEXT_BUTTON = AppiumBy.xpath("//android.widget.Button[@resource-id=\"com.lambdatest.proverbial:id/Text\"]");
     private static final By TEXT_BOX = AppiumBy.xpath("//android.widget.TextView[@resource-id=\"com.lambdatest.proverbial:id/Textbox\"]");
 
