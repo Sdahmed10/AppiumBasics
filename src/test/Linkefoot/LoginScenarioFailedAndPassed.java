@@ -1,4 +1,5 @@
 // Importation des bibliothèques nécessaires
+
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
@@ -37,7 +38,7 @@ public class LoginScenarioFailedAndPassed extends LoginBasicsLinkefoot {
                 {"fif", "2345678@Aa", false},  // Email et mot de passe incorrectes
                 {"", "12345678@Aa", false},    // Champ email vide
                 {"fifa", "", false},           // Champ mot de passe vide
-                {"","", false}                 // champ email et mot de passes vides
+                {"", "", false}                 // champ email et mot de passes vides
         };
     }
 
@@ -64,7 +65,6 @@ public class LoginScenarioFailedAndPassed extends LoginBasicsLinkefoot {
             // Cliquer sur le bouton de connexion
             WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(Login_Button));
             loginButton.click();
-
 
             if (expectedSuccess) {
                 // Vérifier la présence de la page "Communauté"
@@ -114,8 +114,9 @@ public class LoginScenarioFailedAndPassed extends LoginBasicsLinkefoot {
             System.err.println("Échec de l'enregistrement de la capture d'écran : " + e.getMessage());
         }
     }
+
     // Method to scroll to the element
-    public void scrollToElement (By elementLocator){
+    public void scrollToElement(By elementLocator) {
         AndroidDriver driver = (AndroidDriver) this.driver;
         // Get the content-desc value from the locator to construct UiSelector
         String contentDesc = elementLocator.toString().split("content-desc=\"")[1].split("\"")[0];
